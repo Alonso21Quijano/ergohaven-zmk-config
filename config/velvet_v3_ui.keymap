@@ -32,7 +32,7 @@
                 <&macro_release>,
                 <&mo 2>,
                 <&macro_tap>,
-                <&kp LS(LC(F20))>;
+                <&kp LS(LC(F21))>;
 
             label = "TOGGLE_LANG_MO_2";
         };
