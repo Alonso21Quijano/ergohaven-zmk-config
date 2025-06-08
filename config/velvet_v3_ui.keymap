@@ -25,14 +25,14 @@
             #binding-cells = <0>;
             bindings =
                 <&macro_press>,
-                <&kp LS(LC(F20))>,
+                <&mo 2 &kp LS(LC(F20))>,
                 <&macro_release>,
                 <&kp LS(LC(F20))>,
                 <&macro_pause_for_release>,
                 <&macro_press>,
                 <&kp LS(LC(F20))>,
                 <&macro_release>,
-                <&kp LS(LC(F20))>;
+                <&kp LS(LC(F20)) &mo 2>;
 
             label = "TOGGLE_LANG_MO_2";
         };
