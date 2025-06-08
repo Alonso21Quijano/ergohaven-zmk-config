@@ -20,10 +20,10 @@
 
         Navigation {
             bindings = <
-&trans  &trans  &kp N7  &kp N8  &kp N9  &trans                    &trans    &kp LS(LG(LEFT))  &kp LS(LG(DOWN))  &kp LS(LG(UP))  &kp LS(LG(RIGHT))  &trans
-&trans  &trans  &kp N4  &kp N5  &kp N6  &trans                    &kp HOME  &kp LEFT          &kp DOWN          &kp UP          &kp RIGHT          &kp END
-&trans  &trans  &kp N1  &kp N2  &kp N3  &trans                    &trans    &kp LC(LEFT)      &kp PAGE_DOWN     &kp PAGE_UP     &kp LC(RIGHT)      &trans
-                &trans  &kp N0  &trans  &trans  &trans    &trans  &mo 3     &trans            &trans            &trans
+&trans  &trans  &kp N7  &kp N8  &kp N9  &trans                         &trans    &kp LS(LG(LEFT))  &kp LS(LG(DOWN))  &kp LS(LG(UP))  &kp LS(LG(RIGHT))  &trans
+&trans  &trans  &kp N4  &kp N5  &kp N6  &trans                         &kp HOME  &kp LEFT          &kp DOWN          &kp UP          &kp RIGHT          &kp END
+&trans  &trans  &kp N1  &kp N2  &kp N3  &trans                         &trans    &kp LC(LEFT)      &kp PAGE_DOWN     &kp PAGE_UP     &kp LC(RIGHT)      &trans
+                &trans  &kp N0  &trans  &mo 3   &kp LS(TAB)    &trans  &trans    &trans            &trans            &trans
             >;
 
             label = "Navigation";
@@ -31,10 +31,10 @@
 
         Symbols {
             bindings = <
-&kp ESC    &trans         &kp LT        &kp EQUAL     &kp GT        &kp GRAVE                         &trans  &kp LBKT       &kp SEMI   &kp RBKT      &kp LS(EXCL)   &kp LBKT
-&trans     &kp LS(POUND)  &kp LS(LPAR)  &kp MINUS     &kp LS(RPAR)  &kp LS(AMPS)                      &trans  &kp LS(LBRC)   &kp SQT    &kp LS(RBRC)  &kp LS(QMARK)  &kp LS(RCTRL)
-&kp RSHFT  &kp LS(CARET)  &kp BSLH      &kp LS(STAR)  &kp FSLH      &kp LS(DLLR)                      &trans  &kp LS(UNDER)  &kp COMMA  &kp DOT       &trans         &trans
-                          &trans        &kp DELETE    &trans        &mo 3         &kp HASH    &trans  &trans  &trans         &trans     &trans
+&kp ESC    &kp AT_SIGN    &kp LT        &kp EQUAL     &kp GT        &kp GRAVE                       &trans  &kp LBKT       &kp SEMI   &kp RBKT      &kp LS(EXCL)   &kp LBKT
+&trans     &kp LS(POUND)  &kp LS(LPAR)  &kp MINUS     &kp LS(RPAR)  &kp LS(AMPS)                    &trans  &kp LS(LBRC)   &kp SQT    &kp LS(RBRC)  &kp LS(QMARK)  &kp LS(RCTRL)
+&kp RSHFT  &kp LS(CARET)  &kp BSLH      &kp LS(STAR)  &kp FSLH      &kp LS(DLLR)                    &trans  &kp LS(UNDER)  &kp COMMA  &kp DOT       &trans         &trans
+                          &trans        &kp DELETE    &trans        &mo 3         &trans    &trans  &trans  &trans         &trans     &trans
             >;
 
             label = "Symbols";
