@@ -82,7 +82,7 @@
 
         Symbols {
             bindings = <
-&kp ESC       &kp LS(AT)     &kp LS(LT)    &kp EQUAL     &kp LS(GT)    &kp LS(PRCNT)                    &trans  &kp LBKT       &kp SEMI   &kp RBKT      &kp LS(EXCL)   &trans
+&kp ESC       &kp LS(AT)     &kp LS(LT)    &kp EQUAL     &kp LS(GT)    &kp LS(PRCNT)                    &trans  &kp LBKT       &kp P      &kp RBKT      &kp LS(EXCL)   &trans
 &trans        &kp LS(POUND)  &kp LS(LPAR)  &kp MINUS     &kp LS(RPAR)  &kp LS(AMPS)                     &trans  &kp LS(LBRC)   &kp SQT    &kp LS(RBRC)  &kp LS(QMARK)  &trans
 &kp LS(PIPE)  &kp LS(CARET)  &kp BSLH      &kp LS(STAR)  &kp FSLH      &kp LS(DLLR)                     &trans  &kp LS(UNDER)  &kp COMMA  &kp DOT       &kp FSLH       &trans
                              &trans        &trans        &trans        &trans         &trans    &trans  &mo 3   &trans         &trans     &trans
